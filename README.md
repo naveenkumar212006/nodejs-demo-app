@@ -33,7 +33,14 @@ Open http://localhost:3000 to view the application.
 ```bash
 docker build -t nodejs-demo-app .
 docker run --rm -p 3000:3000 nodejs-demo-app
+
 ```
+
+## Application Screenshot
+
+The Node.js application is running successfully inside a Docker container.
+
+![Node.js CI/CD Pipeline Successful](screenshots/cicd-success.png)
 
 ## Security
 Docker Hub credentials are stored as GitHub Actions repository secrets and are not hardcoded in the workflow.
